@@ -22,7 +22,7 @@ namespace Yahtzee
             List<Dice> saved = new();
             
             ActiveDices ActiveDices = new(active);
-            SavedDices SavedDices = new(saved, ActiveDices);
+            SavedDices SavedDices = new(saved);
 
             while (counter < 3)
             {
